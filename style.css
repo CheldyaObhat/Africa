@@ -1,0 +1,39 @@
+body {
+    background-color: goldenrod;
+
+}
+
+img {
+    border-radius: 5%;
+    height: 400px;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+
+    color: green;
+}
+
+h3 {
+    text-align: center;
+    color: yellowgreen;
+}
+
+h4 {
+    text-align: center;
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;
+    background-color: whitesmoke;
+    text-align: center;
+
+}

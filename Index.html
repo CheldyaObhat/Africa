@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Africa</title>
+    <link href=" style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--   Your HTML goes here! -->
+    <!-- create 1 header and 2 subheaders -->
+    <header>
+        <h2> Welcome to Africa! </h2>
+        <h3> Africa is one of the largest and blessed continent in the world.</h3>
+        <h4> Africa has many countries and more than 100 different languages.</h4>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="#Home"></a></li>
+        </ul>
+    </nav>
+
+    <!-- The main container: that will have different section elements.-->
+    <main>
+        <!-- Add in 3 different images -->
+        <section id="pictures">
+            <img src=" images\image1.jpg" alt="Africa">
+            <img src=" images\image2.jpg" alt="Beautiful continent">
+            <img src=" images\image3.jpg" alt="Elephant">
+        </section>
+
+        <!-- A table covering some information related to your topic -->
+        <section id="tble">
+            <table>
+                <tr>
+                    <th> North Africa </th>
+                    <th> South Africa </th>
+                    <th> Central Africa </th>
+                    <th> West Africa </th>
+                    <th> East Africa </th>
+
+                </tr>
+                <tr>
+                    <td> Morocco </td>
+                    <td> South Africa </td>
+                    <td> Congo </td>
+                    <td> Cote d'Ivoire </td>
+                    <td> Kenya </td>
+                </tr>
+
+                <tr>
+                    <td> Egypt </td>
+                    <td> Angola </td>
+                    <td> Cameroon </td>
+                    <td> Nigeria </td>
+                    <td> Tanzania </td>
+                </tr>
+
+                <td> Tunisia </td>
+                <td> Zambia </td>
+                <td> Gabon </td>
+                <td> Ghana </td>
+                <td> Rwanda </td>
+                </tr>
+            </table>
+        </section>
+        <br>
+
+        <form>
+            <label for="countries"> Which part of Africa would you like to visit?</label>
+            <select id="Africa" name="countries" />
+            <option value="North">North</option>
+            <option value="South">South</option>
+            <option value="Central">Central</option>
+            <option value="West">West</option>
+            <option value="East">East</option>
+        </form>
+
+        <br>
+        <p> It's not working</p>
+        <!-- dropdown menu with all the countries listed inside the table to choose from-->
+        <form>
+            <label for="city"> Which city you will to visit? Please choose from the table above</label>
+
+            <input type="text" list="cities" id="city" name="afrique">
+            <datalist id="cities">
+                <option value="Morocco"></option>
+                <option value="South Africa"></option>
+                <option value="Congo"></option>
+                <option value="Cote d'Ivoire"></option>
+                <option value="Kenya"></option>
+                <option value="Egypt"></option>
+                <option value="Angola"></option>
+                <option value="Cameroon"></option>
+                <option value="Nigeria"></option>
+                <option value="Tanzania"></option>
+                <option value="Tunisia"></option>
+                <option value="Zambia"></option>
+                <option value="Gabon"></option>
+                <option value="Ghana"></option>
+                <option value="Rwanda"></option>
+            </datalist>
+        </form>
+        </section>
+        <br>
+
+
+    </main>
+    <div class="footer">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> Visit Africa and have a lot of fun!</p>
+        <p><a href="emaandchel@gmail.com">emaandchel@gmail.com</a></p>
+    </div>
+
+</body>
+
+</html>
